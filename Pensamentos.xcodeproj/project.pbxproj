@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E408ABFF2675375C00FCDBB2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E408ABFE2675375C00FCDBB2 /* Settings.bundle */; };
 		E4512E49262E634500FCB3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E48262E634500FCB3BD /* AppDelegate.swift */; };
 		E4512E4B262E634500FCB3BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E4A262E634500FCB3BD /* SceneDelegate.swift */; };
-		E4512E4D262E634500FCB3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E4C262E634500FCB3BD /* ViewController.swift */; };
 		E4512E50262E634500FCB3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4512E4E262E634500FCB3BD /* Main.storyboard */; };
 		E4512E52262E634700FCB3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4512E51262E634700FCB3BD /* Assets.xcassets */; };
 		E4512E55262E634700FCB3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4512E53262E634700FCB3BD /* LaunchScreen.storyboard */; };
+		E4512E65262E63E300FCB3BD /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = E4512E63262E63E300FCB3BD /* Savoye LET.ttc */; };
+		E4512E66262E63E300FCB3BD /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = E4512E64262E63E300FCB3BD /* quotes.json */; };
+		E4512E6C262E6EB800FCB3BD /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E6B262E6EB800FCB3BD /* QuotesViewController.swift */; };
+		E4512E70262E6EF200FCB3BD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E6F262E6EF200FCB3BD /* SettingsViewController.swift */; };
+		E4512E77262E722500FCB3BD /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E76262E722500FCB3BD /* Quote.swift */; };
+		E4512E7A262E724B00FCB3BD /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E79262E724B00FCB3BD /* QuotesManager.swift */; };
+		E4512E7D262E726C00FCB3BD /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512E7C262E726C00FCB3BD /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E408ABFE2675375C00FCDBB2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Controllers/Settings.bundle; sourceTree = "<group>"; };
 		E4512E45262E634500FCB3BD /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4512E48262E634500FCB3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4512E4A262E634500FCB3BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4512E4C262E634500FCB3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4512E4F262E634500FCB3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4512E51262E634700FCB3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4512E54262E634700FCB3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4512E56262E634700FCB3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4512E63262E63E300FCB3BD /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		E4512E64262E63E300FCB3BD /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		E4512E6B262E6EB800FCB3BD /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		E4512E6F262E6EF200FCB3BD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E4512E76262E722500FCB3BD /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		E4512E79262E724B00FCB3BD /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		E4512E7C262E726C00FCB3BD /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,52 @@
 			children = (
 				E4512E48262E634500FCB3BD /* AppDelegate.swift */,
 				E4512E4A262E634500FCB3BD /* SceneDelegate.swift */,
-				E4512E4C262E634500FCB3BD /* ViewController.swift */,
-				E4512E4E262E634500FCB3BD /* Main.storyboard */,
+				E4512E68262E63FA00FCB3BD /* Files */,
+				E4512E75262E720E00FCB3BD /* Models */,
+				E4512E73262E6F3400FCB3BD /* View */,
+				E4512E72262E6F1D00FCB3BD /* Controllers */,
 				E4512E51262E634700FCB3BD /* Assets.xcassets */,
-				E4512E53262E634700FCB3BD /* LaunchScreen.storyboard */,
+				E408ABFE2675375C00FCDBB2 /* Settings.bundle */,
 				E4512E56262E634700FCB3BD /* Info.plist */,
 			);
 			path = Pensamentos;
+			sourceTree = "<group>";
+		};
+		E4512E68262E63FA00FCB3BD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4512E64262E63E300FCB3BD /* quotes.json */,
+				E4512E63262E63E300FCB3BD /* Savoye LET.ttc */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		E4512E72262E6F1D00FCB3BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4512E6F262E6EF200FCB3BD /* SettingsViewController.swift */,
+				E4512E6B262E6EB800FCB3BD /* QuotesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4512E73262E6F3400FCB3BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4512E4E262E634500FCB3BD /* Main.storyboard */,
+				E4512E53262E634700FCB3BD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4512E75262E720E00FCB3BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4512E76262E722500FCB3BD /* Quote.swift */,
+				E4512E79262E724B00FCB3BD /* QuotesManager.swift */,
+				E4512E7C262E726C00FCB3BD /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4512E55262E634700FCB3BD /* LaunchScreen.storyboard in Resources */,
+				E4512E66262E63E300FCB3BD /* quotes.json in Resources */,
 				E4512E52262E634700FCB3BD /* Assets.xcassets in Resources */,
 				E4512E50262E634500FCB3BD /* Main.storyboard in Resources */,
+				E408ABFF2675375C00FCDBB2 /* Settings.bundle in Resources */,
+				E4512E65262E63E300FCB3BD /* Savoye LET.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4512E4D262E634500FCB3BD /* ViewController.swift in Sources */,
+				E4512E6C262E6EB800FCB3BD /* QuotesViewController.swift in Sources */,
 				E4512E49262E634500FCB3BD /* AppDelegate.swift in Sources */,
+				E4512E7D262E726C00FCB3BD /* Configuration.swift in Sources */,
 				E4512E4B262E634500FCB3BD /* SceneDelegate.swift in Sources */,
+				E4512E77262E722500FCB3BD /* Quote.swift in Sources */,
+				E4512E7A262E724B00FCB3BD /* QuotesManager.swift in Sources */,
+				E4512E70262E6EF200FCB3BD /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.magnodantas.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.magnodantas.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
